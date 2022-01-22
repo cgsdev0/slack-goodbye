@@ -19,6 +19,7 @@ function chunkArray(arr, perChunk) {
 }
 
 async function retry(retries, fn, ...args) {
+  // prettier-ignore
   while (retries --> 0) {
     try {
       return await fn(...args);
