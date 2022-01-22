@@ -1,0 +1,21 @@
+{
+    "name": "slack-goodbye",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Generates a list of emails based on slack DMs.",
+    "main": "index.js",
+    "scripts": {
+        "run": "node index.js"
+    },
+    "author": "Sarah Schulte",
+    "license": "ISC",
+    "dependencies": {
+        "ansi-colors": "^4.1.1",
+        "cli-progress": "^3.10.0",
+        "clipboardy": "^3.0.0",
+        "node-fetch": "^3.2.0"
+    },
+    "devDependencies": {
+        "prettier": "^2.5.1"
+    }
+}
