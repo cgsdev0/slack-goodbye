@@ -4,7 +4,7 @@ Automating farewell emails via Slack history.
 ## Background
 I wasn't sure who I should send my goodbye email to, since I've worked with a lot of people 
 over the years. I decided to write a script to query my Slack DM history and generate a list 
-of email addresses of relevant coworkers.
+of email addresses of coworkers I have chatted with before on Slack.
 
 ## Dependencies
 ```
